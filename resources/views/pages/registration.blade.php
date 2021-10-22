@@ -81,7 +81,8 @@
                             <h6 class="text-danger">{{$message}}</h6>
                             @enderror
                         </div>
-                        <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                        <label for="name"></i></label>
+                        <h6 class="mb-0 text-sm">Enter Name</h6>
                         <input type="text" name="name" value="{{old('name')}}" id="name" placeholder="Your Name" />
                     </div>
 
@@ -92,7 +93,8 @@
                             <h6 class="text-danger">{{$message}}</h6>
                             @enderror
                         </div>
-                        <label for="email"><i class="zmdi zmdi-email"></i></label>
+                        <label for="email"></label>
+                        <h6 class="mb-0 text-sm">Enter Email Address</h6>
                         <input type="email" name="email" id="email" placeholder="Your Email" />
 
                     </div>
@@ -103,7 +105,8 @@
                             <h6 class="text-danger">{{$message}}</h6>
                             @enderror
                         </div>
-                        <label for="password"><i class="zmdi zmdi-lock"></i></label>
+                        <label for="password"></label>
+                        <h6 class="mb-0 text-sm">Enter Password</h6>
                         <input type="password" name="password" id="password" placeholder="Your Password" />
 
                     </div>
@@ -113,7 +116,8 @@
                             <h6 class="text-danger">{{$message}}</h6>
                             @enderror
                         </div>
-                        <label for="password_confirmation"><i class="zmdi zmdi-lock-outline"></i></label>
+                        <label for="password_confirmation"></label>
+                        <h6 class="mb-0 text-sm">Re-Enter Password</h6>
                         <input type="password" name="password_confirmation" id="password_confirmation"
                             placeholder="Repeat your password" />
 
@@ -130,7 +134,7 @@
             </div>
             <div class="signup-image">
                 <figure><img src="loginForm/images/im.PNG" alt="sing up image"></figure>
-                <a href="{{ route ('login') }}" class="signup-image-link">I am already member</a>
+                <a href="{{ route ('login') }}" class="signup-image-link">Login</a>
             </div>
         </div>
     </div>

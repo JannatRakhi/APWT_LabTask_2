@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="loginForm/fonts/material-icon/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="loginForm/css/style.css">
 
@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="signin-form">
-                    <h2 class="form-title">Sign up</h2>
+                    <h2 class="form-title">Log In</h2>
                     <form method="POST" action="{{route('success')}}">
                         {{csrf_field()}}
                         <div class="form-group">
@@ -32,8 +32,9 @@
                                 <h6 class="text-danger">{{$message}}</h6>
                                 @enderror
                             </div>
-                            <label for="email"><i class="zmdi zmdi-account material-icons-email"></i></label>
-                            <input type="email" name="email" id="email" placeholder="Your Email"/>
+                            <label for="email"></label>
+                            <h6 class="mb-0 text-sm">Email Address</h6>
+                            <input type="email" name="email" id="email" placeholder="Enter a Valid Email Address"/>
                         </div>
                         <div class="form-group">
                             <div>
@@ -41,7 +42,8 @@
                                 <h6 class="text-danger">{{$message}}</h6>
                                 @enderror
                             </div>
-                            <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                            <label for="your_pass"></label>
+                            <h6 class="mb-0 text-sm">Enter Password</h6>
                             <input type="password" name="your_pass" id="your_pass" placeholder="Your Password"/>
                         </div>
                         <div class="form-group">
