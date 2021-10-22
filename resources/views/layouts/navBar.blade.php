@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg bg-success">
+<nav class="navbar navbar-expand-lg " style="background-color: rgb(119, 180, 95);">
     <div class="container">
         <h5 class="fw-bold">Navbar</h5>
         <div class="navbar-nav ms-auto">
