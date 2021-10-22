@@ -129,7 +129,7 @@
                 </form>
             </div>
             <div class="signup-image">
-                <figure><img src="loginForm/images/signup-image.jpg" alt="sing up image"></figure>
+                <figure><img src="loginForm/images/im.PNG" alt="sing up image"></figure>
                 <a href="{{ route ('login') }}" class="signup-image-link">I am already member</a>
             </div>
         </div>

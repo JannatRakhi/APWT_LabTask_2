@@ -9,9 +9,9 @@
 
 @extends('layouts.app')
 @section('content')
-<div class="d-flex justify-content-center align-items-center" style="height: 90vh;">
+<div class="d-flex justify-content-center align-items-center text-success" style="height: 90vh;">
     <div>
-        <h1>Contact page</h1>
+        <h2 >Contact page</h2>
     </div>
 </div>
 @endsection

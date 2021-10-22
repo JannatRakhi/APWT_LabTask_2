@@ -18,7 +18,7 @@
         <div class="container">
             <div class="signin-content">
                 <div class="signin-image">
-                    <figure><img src="loginForm/images/signin-image.jpg" alt="sing up image"></figure>
+                    <figure><img src="loginForm/images/image1.JPEG" alt="sing up image"></figure>
                     <a href="{{ route ('registration') }}" class="signup-image-link">Create an account</a>
                 </div>
 
